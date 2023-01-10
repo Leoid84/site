@@ -548,17 +548,15 @@ header .container-fluid {
 
 /* For Medium Devices */
 @media screen and (max-width: 768px) {
+    
     :root {
-     
-        /*===== Font size =====*/
+        
+    /*===== Font size =====*/
         --big-title:4rem;
         --medium-title:1.5rem;
         --normal-title:1rem;
         --small-title:.8rem;
      }
-     section {
-        padding: 1rem 0;
-    }
      .giant-title{
         font-size: 2.5rem;
         font-weight: var(--font-bold);
@@ -566,13 +564,24 @@ header .container-fluid {
         line-height: 2rem;
         overflow:hidden;
     }
+    .big-title{
+        font-size: 30px;
+        color: var(--text-color);
+        line-height: 3rem;
+        overflow: hidden;
+    }
+    section {
+        padding: 1rem 0;
+    }
     .py-1, .py-1, .py-1 { 
         padding-top: 15px !important; padding-bottom: 15px !important; 
     }
     .card h3{
         font-size: 1.3rem;
+        padding-top:15px;
     }
-
+    
+   /* Collumns */
     .sm-col-1 { grid-template-columns: repeat(1, 1fr); }
     .sm-col-2 { grid-template-columns: repeat(2, 1fr); }
     .sm-col-3 { grid-template-columns: repeat(3, 1fr); }
@@ -582,17 +591,18 @@ header .container-fluid {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
-    .big-title{
-        font-size: 30px;
-        color: var(--text-color);
-        line-height: 3rem;
-        overflow: hidden;
-    }
+
     .cursor {
         display: none;
     }
     .logo {
         width: 40px;
+    }
+    /*=============== Parallax ===============*/
+    .parallax {
+        width: 100%;
+        margin: 0 auto;
+        background-attachment:scroll;
     }
 }
 

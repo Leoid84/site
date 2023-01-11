@@ -607,14 +607,15 @@ header .container-fluid {
     }
 }
 
-@media screen and (max-width: 576px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
 
     /* Menu nav */
   .nav-sidebar {
     z-index: 999;
-    width: 300px;
+    width: 240px;
     height: 100vh;
     left: -300px;
+    top:0;
     background-color: #020217;
     display: flex;
     position: fixed;
@@ -679,7 +680,3 @@ header .container-fluid {
 .logo {
     width: 40px;
 }
-
-
-/* For Small Devices */
-@media screen and (max-width: 350px) {}

@@ -151,6 +151,7 @@ header {
     padding: 15px 15px;
     background-color: var(--rgba-color);
     z-index: 9;
+    top:0;
 }
 header .container-fluid {
   width: 100%;

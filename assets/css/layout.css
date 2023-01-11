@@ -147,10 +147,10 @@ p {
 
 header {
     width: 100%;
-    position: fixed;
     padding: 15px 15px;
     background-color: var(--rgba-color);
     z-index: 9;
+    position: sticky;
     top:0;
 }
 header .container-fluid {

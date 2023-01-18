@@ -173,6 +173,7 @@ header .container-fluid {
     position: fixed;
     bottom: 0;
     right: 30px;
+    left: 94vw;
     display: block;
     z-index: 9;
 }
@@ -607,7 +608,7 @@ header .container-fluid {
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 600px) {
+@media only screen and (min-width: 300px) and (max-width: 768px) {
 
     /* Menu nav */
   .nav-sidebar {
@@ -627,7 +628,7 @@ header .container-fluid {
       position: relative;
       bottom: 0;
       right: 0;
-      left: 30px;
+      left: 30px !important;
       display: block;
   }
 
